@@ -1,0 +1,186 @@
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*
+* home
+*/
+nav {
+    background-color: maroon;
+    color: #fff;
+}
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+.home{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.home a{
+    display: inline-block;
+
+}
+
+.home > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+.home > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-right: 20px;
+    margin-top: 30px
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > img {
+    height: 42px;
+}
+
+/*
+* Hero / jumbotron
+*/
+header {
+    background: url("../gmbar/f3f35071-2670-4ba5-ad90-cf98f12d0ad7.jpeg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+.header-opacity {
+    background-color: rgb(255, 203, 203);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-jumbotron > h4 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-jumbotron > h5 {
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+    text-transform: uppercase;
+}
+
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+.button {
+    background-color: maroon;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: verdana;
+}
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+/*
+* About me
+*/
+#About-me {
+    background-color: rgb(255, 193, 202);
+    color: rgb(255, 193, 202);
+}
+
+#About-me > .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*
+* Sosial media
+*/
+
+#Sosial-media {
+    background-color: rgb(249, 146, 163);
+    color: #fff;
+}
+
+#Sosial-media > .wrapper > h4 {
+    padding: 50px 0px 50px 0px;
+}
+
+#Sosial-media > .wrapper > h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+
+.apk > img {
+    height: 80px;
+    display: flex;
+}
+
+.text {
+    position: sticky;
+    top: 10px; 
+    width: 100%;
+}
